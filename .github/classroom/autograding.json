@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "test_float_amount.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_float_amount.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "test_invalid_currency",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_invalid_currency.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test_invalid_amount",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_invalid_amount.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test_usd_conversion",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_usd_conversion.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_yuan_conversion",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_yuan_conversion.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_baht_conversion",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_baht_conversion.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
