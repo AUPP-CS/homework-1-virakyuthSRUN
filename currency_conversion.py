@@ -1,9 +1,20 @@
 # currency_conversion.py
 
 def currency_conversion(currency, amount):
+    """
+    Converts the given amount from the specified currency to RIEL.
+
+    Parameters:
+    - currency (str): The currency code (USD, YUAN, BAHT).
+    - amount (float or int): The amount to be converted.
+
+    Returns:
+    - float or str: The converted amount in RIEL or an error message.
+    """
     # Check if the amount is a valid number
-    if isinstance(amount, (float, int)):
-        return 'invalid amount'  
+    if not isinstance(amount, (float, int)):
+        return 'invalid amount'
+    
     # Perform currency conversion
     if currency.upper() == 'USD':
         return amount * 4075
@@ -12,4 +23,4 @@ def currency_conversion(currency, amount):
     elif currency.upper() == 'BAHT':
         return amount * 115
     else:
-        return 'not found'
+        return "not found"
