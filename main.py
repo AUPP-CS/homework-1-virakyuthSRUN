@@ -1,4 +1,3 @@
-# main.py
 from currency_conversion import currency_conversion
 
 def main():
@@ -23,7 +22,7 @@ def main():
     while True:
         # Get user input for currency choice
         currency = input("\n👉 Enter the currency: ").upper()
-
+    
         # Ask the user for the amount they want to convert
         if currency == "USD":
             amount = input("👉 Enter the amount: $")
